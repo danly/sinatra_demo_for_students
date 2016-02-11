@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+</head>
+<body>
+    <h1>Welcome: <%= @shepherd %></h1>
+    <% if @gender == "male" || @gender == "female" %>
+        <h2>My Gender is <%=@gender%></h2>
+    <% end %>
+</body>
+</html>
